@@ -1,0 +1,33 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+*.pem
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Generated video build artifacts (keep final MP4s if you want — large)
+video_assets/frames/
+video_assets/tokyo_frames/
+video_assets/*_concat.txt
+video_assets/raw_*.mp4
+video_assets/tokyo_raw.mp4
+video_assets/audio/
+video_assets/tokyo_audio/
+
+# Optional: uncomment to ignore large generated videos
+# video_assets/*.mp4
+# video_assets/*.pptx
