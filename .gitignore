@@ -19,15 +19,12 @@ Thumbs.db
 .idea/
 .vscode/
 
-# Generated video build artifacts (keep final MP4s if you want — large)
-video_assets/frames/
-video_assets/tokyo_frames/
-video_assets/*_concat.txt
-video_assets/raw_*.mp4
-video_assets/tokyo_raw.mp4
-video_assets/audio/
-video_assets/tokyo_audio/
-
-# Optional: uncomment to ignore large generated videos
-# video_assets/*.mp4
-# video_assets/*.pptx
+# Video / media (local only — never push)
+video_assets/
+*.mp4
+*.pptx
+create_tokyo_video.py
+create_video.py
+generate_assets.py
+VIDEO_SCRIPT.md
+YOUTUBE.md
